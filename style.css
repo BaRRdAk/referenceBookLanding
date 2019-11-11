@@ -2,8 +2,111 @@
   margin-bottom: 0;
 }
 
+.blockFirst {
+  margin-top: 20vh;
+  margin-bottom: 31vh;
+  text-align: center;
+}
+
+.blockFirst h1 {
+  font-size: 5vh;
+  margin-bottom: 2.3vh;
+}
+
+.blockFirst p {
+  font-size: 4vh;
+  margin-bottom: 10vh;
+}
+
+.blockFirst button {
+  padding: 1.5vh 5vh;
+}
+
+.blockSecond {
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+  text-align: center;
+}
+
+.blockSecond h2 {
+  font-size: 4vh;
+  margin-bottom: 10vh;
+}
+
+.blockSecond .row {
+  margin-bottom: 0vh;
+}
+
+.blockSecond p {
+  margin-top: 3vh;
+  margin-bottom: 6vh;
+}
+
+.blockThird {
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+
+.blockThird p {
+  line-height: 4vh;
+}
+
+.blockThird button {
+  margin-top: 4vh;
+  padding: 1.5vh 5vh;
+}
+
+.blockFourth {
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+
+.blockFourth h2 {
+  font-size: 4vh;
+  margin-bottom: 10vh;
+  text-align: center;
+}
+
+.blockFourth img {
+  margin-right: 3vh;
+}
+
+.blockFourth .row {
+  margin-bottom: 5vh;
+}
+
+.blockFourth .col {
+  padding-top: 15px;
+}
+
+.blockFifth {
+  margin-bottom: 2vh;
+}
+
+.imageSample {
+  margin-bottom: 20px;
+}
+
+.blockSixth {
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+  text-align: center;
+}
+
+.blockSixth h2 {
+  font-size: 4vh;
+  margin-bottom: 10vh;
+}
+
+.blockSixth p {
+  font-size: 3vh;
+}
+
+.blockSixth .btn {
+  margin-bottom: 50px;
+}
+
 .p-1 {
-  height: 80vh;
   background: -moz-linear-gradient(to top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
   background: -webkit-linear-gradient(to top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
   background: -o-linear-gradient(to top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
@@ -14,31 +117,29 @@
     no-repeat;
   background-position:
     bottom center,
-    bottom center;
+    bottom -150px;
   background-size:
     cover,
     cover;
 }
 
 .p-2 {
-  height: 80vh;
   background-color: #fcfbef;
 }
 
 .p-3 {
-  height: 80vh;
   background-color: #fff;
 }
 
-.p-4 {
-  height: 80vh;
+.contactBlock {
   background-color: #292929;
 }
 
-.p-5 {
-  height: 80vh;
+.copyrightBlock {
   background-color: #0d0d0d;
   color: #9d9d9d;
+  font-size: 12px;
+  text-align: center;
 }
 
 @media screen and (min-width: 601px) {
