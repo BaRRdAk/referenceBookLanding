@@ -1,0 +1,48 @@
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.p-1 {
+  height: 80vh;
+  background: -moz-linear-gradient(to top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
+  background: -webkit-linear-gradient(to top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
+  background: -o-linear-gradient(to top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
+  background: -ms-linear-gradient(top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
+  background: linear-gradient(to top, transparent, rgba(255, 255, 255, 1)), url("images/picture_1.jpg");
+  background-repeat:
+    no-repeat,
+    no-repeat;
+  background-position:
+    bottom center,
+    bottom center;
+  background-size:
+    cover,
+    cover;
+}
+
+.p-2 {
+  height: 80vh;
+  background-color: #fcfbef;
+}
+
+.p-3 {
+  height: 80vh;
+  background-color: #fff;
+}
+
+.p-4 {
+  height: 80vh;
+  background-color: #292929;
+}
+
+.p-5 {
+  height: 80vh;
+  background-color: #0d0d0d;
+  color: #9d9d9d;
+}
+
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 9em;
+  }
+}
