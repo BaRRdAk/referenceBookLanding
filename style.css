@@ -141,6 +141,29 @@
 
 .contactBlock {
   background-color: #292929;
+  border-radius: 0;
+}
+
+.contact {
+  margin-bottom: 30px;
+  color: white;
+}
+
+.contact a {
+  color: #ff8562;
+  font-size: 22px;
+}
+
+.contact .phone a {
+  color: white;
+}
+
+.contact .title {
+  font-size: 38px;
+}
+
+.contact .address {
+  font-size: 22px;
 }
 
 .copyrightBlock {
@@ -148,6 +171,7 @@
   color: #9d9d9d;
   font-size: 12px;
   text-align: center;
+  border-radius: 0;
 }
 
 @media screen and (min-width: 601px) {
