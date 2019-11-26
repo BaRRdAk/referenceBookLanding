@@ -1,3 +1,11 @@
+.socialLinks, .phone, .logos {
+  margin-top: 20px;
+}
+
+.logos {
+  margin-top: 10px;
+}
+
 .jumbotron {
   margin-bottom: 0;
 }
